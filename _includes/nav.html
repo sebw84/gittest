@@ -14,7 +14,14 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-            {% if page.url == '/about.html' %}
+            {% if page.url == '/neue-seite.html' %}
+              <li class="active">
+            {% else %}
+              <li>
+            {% endif %}
+              <a href="/neue-seite.html">About</a>
+            </li>
+             {% if page.url == '/about.html' %}
               <li class="active">
             {% else %}
               <li>
