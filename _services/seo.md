@@ -1,4 +1,5 @@
 ---
 title: Seo
-image_path: /img/pen.png
+image_path: /img/eye.png
 ---
+
